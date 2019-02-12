@@ -1,0 +1,62 @@
+.best {
+  display: flex;
+  background: url("../../img/bg-best.jpg") center center / cover no-repeat;
+}
+
+.best__container {
+  padding: 110px 91px 0 91px;
+}
+
+.best__title {
+  color: #2f3234;
+  @include gagalin;
+  font-size: 72px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+.best__list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.best__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-basis: 31.1%;
+}
+
+.best__icon {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+.best__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.best__content__title{
+  text-align: center;
+  color: #2f3234;
+  @include lifehack;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: -0.6px;
+  padding-bottom: 16px;
+}
+
+.best__content__text {
+  text-align: center;
+  opacity: 0.8;
+  color: #2f3234;
+  @include ubuntu;
+  font-size: 14px;
+  font-weight: 300;
+}

@@ -6,6 +6,13 @@
   padding: 13px 80px 0 76px;
 }
 
+.top__title {
+  color: #f9b43b;
+  @include gagalin;
+  font-size: 72px;
+  font-weight: 400;
+}
+
 .header {
   display: flex;
   align-items: center;

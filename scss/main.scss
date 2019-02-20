@@ -1,4 +1,11 @@
 
+// breackpoints
+$tablets: 768px;
+$phones: 480px;
+
+// media
+@import "./config/media.scss";
+
 // config
 @import "./config/base.scss";
 @import "./config/fonts.scss";
@@ -12,4 +19,5 @@
 @import "./section/forms.scss";
 @import "./section/fix.scss";
 @import "./section/comments.scss";
-
+@import "./section/working.scss";
+@import "./section/footer.scss";

@@ -1,0 +1,12 @@
+.working {
+  background: url("../../img/bg-working.jpg") center center / cover no-repeat;
+}
+
+.working__title {
+  color: #2f3234;
+  @include gagalin;
+  text-align: center;
+  padding-top: rem(60px);
+  font-size: rem(61px);
+  font-weight: 400;
+}

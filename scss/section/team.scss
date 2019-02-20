@@ -6,21 +6,21 @@
   height: 100%;
   width: 50%;
   margin-left: auto;
-  background-color: rgba(0, 0, 0, ) #2f3234;
+  background-color: #2f3234;
   opacity: 0.93;
-  padding: 113px 102px 0 102px;
+  padding: rem(113px) rem(102px) 0 rem(102px);
 }
 
 .team__title {
   color: #f9b43b;
   @include gagalin;
-  font-size: 72px;
+  font-size: rem(72px);
   font-weight: 400;
 }
 
 .team__name {
   color: #ffffff;
-  font-size: 14px;
+  font-size: rem(14px);
   font-weight: 400;
   @include gagalin;
 }
@@ -32,13 +32,13 @@
 .team__text__title {
   color: #ffffff;
   @include ubuntu;
-  font-size: 14px;
+  font-size: rem(14px);
   font-weight: 700;
 }
 
 .team__text__desc {
   color: #ffffff;
-  font-size: 14px;
+  font-size: rem(14px);
   font-weight: 300;
   @include ubuntu;
 }

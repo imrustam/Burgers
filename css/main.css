@@ -106,7 +106,7 @@ section {
   font-style: normal; }
 
 .top {
-  background: url("../../img/bg-top.jpg") center center/cover no-repeat; }
+  background: url("../../image/bg-top.jpg") center center/cover no-repeat; }
 
 .top__container {
   padding: 0.8125rem 5rem 0 4.75rem; }
@@ -322,7 +322,7 @@ section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background: url("../../img/bg-best.jpg") center center/cover no-repeat; }
+  background: url("../../image/bg-best.jpg") center center/cover no-repeat; }
 
 .best__container {
   padding: 6.875rem 5.6875rem 0 5.6875rem; }
@@ -404,7 +404,7 @@ section {
   font-weight: 300; }
 
 .team {
-  background: url("../../img/bg-team.jpg") center center/cover no-repeat; }
+  background: url("../../image/bg-team.jpg") center center/cover no-repeat; }
 
 .team__container {
   height: 100%;
@@ -444,7 +444,7 @@ section {
   font-family: "Ubuntu", Arial, Helvetica, sans-serif; }
 
 .forms {
-  background: url("../../img/bg-forms.jpg") center center/cover no-repeat; }
+  background: url("../../image/bg-forms.jpg") center center/cover no-repeat; }
 
 .forms__container {
   padding: 7rem 5.3125rem 0 5.125rem; }
@@ -662,28 +662,28 @@ section {
   height: 50%; }
 
 .comments__item:nth-child(1) {
-  background: url("../../img/photo-1.jpg") center center/cover no-repeat; }
+  background: url("../../image/photo-1.jpg") center center/cover no-repeat; }
 
 .comments__item:nth-child(2) {
-  background: url("../../img/photo-2.jpg") center center/cover no-repeat; }
+  background: url("../../image/photo-2.jpg") center center/cover no-repeat; }
 
 .comments__item:nth-child(3) {
-  background: url("../../img/photo-3.jpg") center center/cover no-repeat; }
+  background: url("../../image/photo-3.jpg") center center/cover no-repeat; }
 
 .comments__item:nth-child(4) {
-  background: url("../../img/photo-4.jpg") center center/cover no-repeat; }
+  background: url("../../image/photo-4.jpg") center center/cover no-repeat; }
 
 .comments__item:nth-child(5) {
-  background: url("../../img/photo-5.jpg") center center/cover no-repeat; }
+  background: url("../../image/photo-5.jpg") center center/cover no-repeat; }
 
 .comments__item:nth-child(6) {
-  background: url("../../img/photo-6.jpg") center center/cover no-repeat; }
+  background: url("../../image/photo-6.jpg") center center/cover no-repeat; }
 
 .comments__item:nth-child(7) {
-  background: url("../../img/photo-7.jpg") center center/cover no-repeat; }
+  background: url("../../image/photo-7.jpg") center center/cover no-repeat; }
 
 .comments__item:nth-child(8) {
-  background: url("../../img/photo-8.jpg") center center/cover no-repeat; }
+  background: url("../../image/photo-8.jpg") center center/cover no-repeat; }
 
 .comments__content {
   width: 100%;
@@ -738,7 +738,7 @@ section {
 
 .footer {
   min-height: 3.75rem;
-  background: url("../../img/footer.jpg") center center/cover no-repeat;
+  background: url("../../image/footer.jpg") center center/cover no-repeat;
   width: 100%; }
 
 .footer__container {

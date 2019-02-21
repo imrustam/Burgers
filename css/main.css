@@ -106,7 +106,7 @@ section {
   font-style: normal; }
 
 .top {
-  background: url("../../image/bg-top.jpg") center center/cover no-repeat; }
+  background: url("../../image/top.jpg") center center/cover no-repeat; }
 
 .top__container {
   padding: 0.8125rem 5rem 0 4.75rem; }
@@ -322,7 +322,7 @@ section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background: url("../../image/bg-best.jpg") center center/cover no-repeat; }
+  background: url("../../image/best.jpg") center center/cover no-repeat; }
 
 .best__container {
   padding: 6.875rem 5.6875rem 0 5.6875rem; }
@@ -404,7 +404,7 @@ section {
   font-weight: 300; }
 
 .team {
-  background: url("../../image/bg-team.jpg") center center/cover no-repeat; }
+  background: url("../../image/team.jpg") center center/cover no-repeat; }
 
 .team__container {
   height: 100%;
@@ -444,7 +444,7 @@ section {
   font-family: "Ubuntu", Arial, Helvetica, sans-serif; }
 
 .forms {
-  background: url("../../image/bg-forms.jpg") center center/cover no-repeat; }
+  background: url("../../image/forms.jpg") center center/cover no-repeat; }
 
 .forms__container {
   padding: 7rem 5.3125rem 0 5.125rem; }
@@ -726,7 +726,7 @@ section {
   border-radius: 0.3125rem; }
 
 .working {
-  background: url("../../img/bg-working.jpg") center center/cover no-repeat; }
+  background: url("../../img/working.jpg") center center/cover no-repeat; }
 
 .working__title {
   color: #2f3234;

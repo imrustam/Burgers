@@ -4,15 +4,17 @@
 }
 
 .best__container {
-  padding: rem(110px) rem(91px) 0 rem(91px);
-  
+  justify-content: center;
+  display: flex;
+  width: 95%;  
+
   @include tablets {
+    justify-content: center;
     padding: 0;
-    padding-top: 230px;
     width: 95%;
   }
   @include phones {
-    padding-top: 86px;
+    justify-content: center;
   }
 }
 
@@ -45,7 +47,6 @@
   @include phones {
     flex-direction: row;
     align-items: flex-start;
-    margin-bottom: 40px;
   }
 }
 

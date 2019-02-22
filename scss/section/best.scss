@@ -5,10 +5,14 @@
 
 .best__container {
   padding: rem(110px) rem(91px) 0 rem(91px);
+  
   @include tablets {
     padding: 0;
     padding-top: 230px;
     width: 95%;
+  }
+  @include phones {
+    padding-top: 86px;
   }
 }
 
@@ -26,6 +30,10 @@
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+
+  @include phones {
+    flex-direction: column;
+  }
 }
 
 .best__item {
@@ -33,18 +41,33 @@
   flex-direction: column;
   justify-content: center;
   flex-basis: 31.1%;
+
+  @include phones {
+    flex-direction: row;
+    align-items: flex-start;
+    margin-bottom: 40px;
+  }
 }
 
 .best__icon {
   display: flex;
   justify-content: center;
   padding-bottom: rem(30px);
+
+  @include phones {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .best__content {
   display: flex;
   flex-direction: column;
   justify-content: center;
+
+  @include phones {
+    width: 70%;
+  }
 }
 
 .best__content__title{
@@ -55,6 +78,10 @@
   font-weight: 500;
   letter-spacing: -0.6px;
   padding-bottom: rem(16px);
+
+  @include phones {
+    text-align: left;
+  }
 }
 
 .best__content__text {
@@ -64,4 +91,8 @@
   @include ubuntu;
   font-size: rem(14px);
   font-weight: 300;
+
+  @include phones {
+    text-align: left;
+  }
 }

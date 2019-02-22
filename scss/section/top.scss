@@ -1,21 +1,9 @@
 .top {
-  background: url('../../image/top.jpg') center center / cover no-repeat;
+  background: url('../image/top.jpg') center center / cover no-repeat;
 }
 
 .top__container {
-  padding: rem(13px) rem(80px) 0 rem(76px);
-  @include tablets {
-    padding: 13px 0 0 0;
-    width: 95%;
-  }
-}
-
-.top__title {
-  color: #f9b43b;
-  @include gagalin;
-  font-size: rem(72px);
-  font-weight: 400;
-  width: 100%;
+  padding-top: 13px;
 }
 
 .header {
@@ -26,19 +14,17 @@
 }
 
 .header__logo {
-  width: auto;
+  height: 100%;
 }
 
 .header__logo__img {
-  width: auto;
   height: 100%;
 }
 
 .header__nav {
   display: flex;
   margin-left: auto;
-  padding-bottom: rem(16px);
-  padding-right: rem(14px);
+  margin-right: 15px;
   @include tablets {
     display: none;
   }
@@ -55,15 +41,16 @@
 .header__nav__item {
   display: flex;
   align-items: center;
+  white-space: nowrap;
 
   &:after {
     content: "";
     display: block;
-    width: rem(4px);
-    height: rem(4px);
+    width: 4px;
+    height: 4px;
     border-radius: 50%;
     background: #fff;
-    margin: 0 rem(16px);
+    margin: 0 16px;
   }
   &:last-child:after {
     display: none;
@@ -86,15 +73,13 @@
   font-size: rem(13px);
   font-weight: 500;
   text-transform: uppercase;
-  padding: rem(8px) rem(15px);
+  padding: 8px 15px;
   background-color: #e45028;
   border-radius: 5px;
   display: block;
-  margin-bottom: rem(16px);
   @include tablets {
-    margin-bottom: 0;
-    margin-right: 30px;
     margin-left: auto;
+    margin-right: 30px;
   }
 }
 
@@ -121,16 +106,6 @@
   }
 }
 
-.top__contain {
-  flex: .7;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  @include tablets {
-    flex: 1;
-  }
-}
-
 .top__content {
   display: flex;
   align-items: center;
@@ -138,7 +113,6 @@
   width: 100%;
   @include tablets {
     flex-direction: column;
-    padding-top: 52px;
   }
 }
 
@@ -147,24 +121,34 @@
   display: flex;
   justify-content: flex-end;
   @include tablets {
-    width: auto;
+    width: 100%;
     justify-content: center;
   }
 }
 
 .top__pic__img {
   height: 100%;
-  width: auto;
+  width: 100%;
+  max-width: 451px;
+  max-height: 424px;
+}
+
+.top__title {
+  color: #f9b43b;
+  @include gagalin;
+  font-size: rem(72px);
+  font-weight: 400;
+  width: 100%;
+  white-space: nowrap;
 }
 
 .top__text {
   width: 50%;
-  padding-left: rem(12px);
-  padding-top: rem(24px);
+  padding-left: 10px;
+  padding-top: 70px;
   @include tablets {
-    width: 100%;
-    text-align: center;
     padding-left: 0;
+    padding-top: 10px;
   }
 }
 
@@ -175,17 +159,16 @@
   @include lifehack;
   font-weight: 500;
   letter-spacing: -1.63px;
-  line-height: rem(60px);
-  padding-top: rem(10px);
+  line-height: 60px;
+  padding-top: 10px;
   @include tablets {
-    margin: 0 auto;
-    width: 50%;
+    text-align: center;
   }
 }
 
 .top__scroll {
   position: absolute;
-  bottom: rem(41px);
+  bottom: 41px;
   left: 48.65%;
 }
 

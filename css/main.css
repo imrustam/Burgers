@@ -1,7 +1,3 @@
-* {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box; }
-
 html {
   font-size: 16px; }
   @media screen and (max-width: 768px) {
@@ -28,7 +24,7 @@ body {
   min-height: 100%; }
 
 .container {
-  width: 100%;
+  width: 95%;
   max-width: 1100px;
   margin: 0 auto;
   position: relative;
@@ -106,21 +102,10 @@ section {
   font-style: normal; }
 
 .top {
-  background: url("../../image/top.jpg") center center/cover no-repeat; }
+  background: url("../image/top.jpg") center center/cover no-repeat; }
 
 .top__container {
-  padding: 0.8125rem 5rem 0 4.75rem; }
-  @media screen and (max-width: 768px) {
-    .top__container {
-      padding: 13px 0 0 0;
-      width: 95%; } }
-
-.top__title {
-  color: #f9b43b;
-  font-family: "Gagalin", Arial, Helvetica, sans-serif;
-  font-size: 4.5rem;
-  font-weight: 400;
-  width: 100%; }
+  padding-top: 13px; }
 
 .header {
   display: -webkit-box;
@@ -135,10 +120,9 @@ section {
   justify-content: space-between; }
 
 .header__logo {
-  width: auto; }
+  height: 100%; }
 
 .header__logo__img {
-  width: auto;
   height: 100%; }
 
 .header__nav {
@@ -146,8 +130,7 @@ section {
   display: -ms-flexbox;
   display: flex;
   margin-left: auto;
-  padding-bottom: 1rem;
-  padding-right: 0.875rem; }
+  margin-right: 15px; }
   @media screen and (max-width: 768px) {
     .header__nav {
       display: none; } }
@@ -166,15 +149,16 @@ section {
   display: flex;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center; }
+  align-items: center;
+  white-space: nowrap; }
   .header__nav__item:after {
     content: "";
     display: block;
-    width: 0.25rem;
-    height: 0.25rem;
+    width: 4px;
+    height: 4px;
     border-radius: 50%;
     background: #fff;
-    margin: 0 1rem; }
+    margin: 0 16px; }
   .header__nav__item:last-child:after {
     display: none; }
 
@@ -197,16 +181,14 @@ section {
   font-size: 0.8125rem;
   font-weight: 500;
   text-transform: uppercase;
-  padding: 0.5rem 0.9375rem;
+  padding: 8px 15px;
   background-color: #e45028;
   border-radius: 5px;
-  display: block;
-  margin-bottom: 1rem; }
+  display: block; }
   @media screen and (max-width: 768px) {
     .header__button {
-      margin-bottom: 0;
-      margin-right: 30px;
-      margin-left: auto; } }
+      margin-left: auto;
+      margin-right: 30px; } }
 
 .header__hamburger {
   display: none; }
@@ -238,21 +220,6 @@ section {
   .header__hamburger__nav:last-child {
     margin-bottom: 0; }
 
-.top__contain {
-  -webkit-box-flex: .7;
-  -ms-flex: .7;
-  flex: .7;
-  width: 100%;
-  height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex; }
-  @media screen and (max-width: 768px) {
-    .top__contain {
-      -webkit-box-flex: 1;
-      -ms-flex: 1;
-      flex: 1; } }
-
 .top__content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -267,8 +234,7 @@ section {
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
       -ms-flex-direction: column;
-      flex-direction: column;
-      padding-top: 52px; } }
+      flex-direction: column; } }
 
 .top__pic {
   width: 50%;
@@ -280,24 +246,33 @@ section {
   justify-content: flex-end; }
   @media screen and (max-width: 768px) {
     .top__pic {
-      width: auto;
+      width: 100%;
       -webkit-box-pack: center;
       -ms-flex-pack: center;
       justify-content: center; } }
 
 .top__pic__img {
   height: 100%;
-  width: auto; }
+  width: 100%;
+  max-width: 451px;
+  max-height: 424px; }
+
+.top__title {
+  color: #f9b43b;
+  font-family: "Gagalin", Arial, Helvetica, sans-serif;
+  font-size: 4.5rem;
+  font-weight: 400;
+  width: 100%;
+  white-space: nowrap; }
 
 .top__text {
   width: 50%;
-  padding-left: 0.75rem;
-  padding-top: 1.5rem; }
+  padding-left: 10px;
+  padding-top: 70px; }
   @media screen and (max-width: 768px) {
     .top__text {
-      width: 100%;
-      text-align: center;
-      padding-left: 0; } }
+      padding-left: 0;
+      padding-top: 10px; } }
 
 .top__desc {
   width: 100%;
@@ -306,26 +281,30 @@ section {
   font-family: "Lifehack", Arial, Helvetica, sans-serif;
   font-weight: 500;
   letter-spacing: -1.63px;
-  line-height: 3.75rem;
-  padding-top: 0.625rem; }
+  line-height: 60px;
+  padding-top: 10px; }
   @media screen and (max-width: 768px) {
     .top__desc {
-      margin: 0 auto;
-      width: 50%; } }
+      text-align: center; } }
 
 .top__scroll {
   position: absolute;
-  bottom: 2.5625rem;
+  bottom: 41px;
   left: 48.65%; }
 
 .best {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background: url("../../image/best.jpg") center center/cover no-repeat; }
+  background: url("../image/best.jpg") center center/cover no-repeat; }
 
 .best__container {
   padding: 6.875rem 5.6875rem 0 5.6875rem; }
+  @media screen and (max-width: 768px) {
+    .best__container {
+      padding: 0;
+      padding-top: 230px;
+      width: 95%; } }
 
 .best__title {
   color: #2f3234;
@@ -404,7 +383,7 @@ section {
   font-weight: 300; }
 
 .team {
-  background: url("../../image/team.jpg") center center/cover no-repeat; }
+  background: url("../image/team.jpg") center center/cover no-repeat; }
 
 .team__container {
   height: 100%;
@@ -444,7 +423,7 @@ section {
   font-family: "Ubuntu", Arial, Helvetica, sans-serif; }
 
 .forms {
-  background: url("../../image/forms.jpg") center center/cover no-repeat; }
+  background: url("../image/forms.jpg") center center/cover no-repeat; }
 
 .forms__container {
   padding: 7rem 5.3125rem 0 5.125rem; }
@@ -570,7 +549,7 @@ section {
   margin-right: 0.625rem; }
 
 .forms__checkbox__click--active {
-  background: url("../../img/checkbox.png") center center no-repeat;
+  background: url("../../image/checkbox.png") center center no-repeat;
   width: 0.6875rem;
   height: 0.5625rem;
   position: absolute;
@@ -618,6 +597,8 @@ section {
       display: none; } }
 
 .fix__item {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -726,7 +707,7 @@ section {
   border-radius: 0.3125rem; }
 
 .working {
-  background: url("../../img/working.jpg") center center/cover no-repeat; }
+  background: url("../image/working.jpg") center center/cover no-repeat; }
 
 .working__title {
   color: #2f3234;
@@ -738,7 +719,7 @@ section {
 
 .footer {
   min-height: 3.75rem;
-  background: url("../../image/footer.jpg") center center/cover no-repeat;
+  background: url("../image/footer.jpg") center center/cover no-repeat;
   width: 100%; }
 
 .footer__container {

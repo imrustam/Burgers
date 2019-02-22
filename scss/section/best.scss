@@ -1,10 +1,15 @@
 .best {
   display: flex;
-  background: url("../../image/best.jpg") center center / cover no-repeat;
+  background: url("../image/best.jpg") center center / cover no-repeat;
 }
 
 .best__container {
   padding: rem(110px) rem(91px) 0 rem(91px);
+  @include tablets {
+    padding: 0;
+    padding-top: 230px;
+    width: 95%;
+  }
 }
 
 .best__title {

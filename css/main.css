@@ -477,32 +477,103 @@ section {
       text-align: left; } }
 
 .team {
-  background: url("../image/team.jpg") center center/cover no-repeat; }
+  background: url("../image/team.jpg") center center/cover no-repeat;
+  position: relative; }
 
 .team__container {
   height: 100%;
-  width: 50%;
-  margin-left: auto;
+  width: 49%;
+  position: absolute;
+  right: 0;
   background-color: #2f3234;
   opacity: 0.93;
-  padding: 7.0625rem 6.375rem 0 6.375rem; }
+  padding: 8% 8% 0 9%; }
+  @media screen and (max-width: 768px) {
+    .team__container {
+      width: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      text-align: center;
+      padding-left: 20%;
+      padding-right: 20%;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; } }
 
 .team__title {
   color: #f9b43b;
   font-family: "Gagalin", Arial, Helvetica, sans-serif;
   font-size: 4.5rem;
-  font-weight: 400; }
+  font-weight: 400;
+  padding-bottom: 24px; }
+
+.team__list {
+  padding-left: 16px; }
+
+.team__item {
+  padding-bottom: 28px; }
 
 .team__name {
+  position: relative;
   color: #ffffff;
   font-size: 0.875rem;
   font-weight: 400;
   font-family: "Gagalin", Arial, Helvetica, sans-serif; }
+  .team__name:before {
+    content: "";
+    left: -19px;
+    top: 8px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #f9b43b transparent transparent transparent;
+    position: absolute; }
 
 .team__content {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  overflow: hidden;
+  height: 0; }
+  @media screen and (max-width: 768px) {
+    .team__content {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column; } }
+
+.team__img {
+  margin-top: 14px;
+  margin-bottom: 4px; }
+
+.team__text {
+  padding-left: 20px;
+  margin-top: 11px; }
+  @media screen and (max-width: 768px) {
+    .team__text {
+      padding: 0;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; } }
+
+.team__content--active {
+  height: auto; }
 
 .team__text__title {
   color: #ffffff;
@@ -514,7 +585,40 @@ section {
   color: #ffffff;
   font-size: 0.875rem;
   font-weight: 300;
-  font-family: "Ubuntu", Arial, Helvetica, sans-serif; }
+  font-family: "Ubuntu", Arial, Helvetica, sans-serif;
+  line-height: 24.01px;
+  padding-top: 13px; }
+  @media screen and (max-width: 768px) {
+    .team__text__desc {
+      width: 75%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; } }
+
+.menu {
+  background: url("../image/menu.jpg") center center/cover no-repeat;
+  position: relative; }
+
+.menu__title {
+  font-family: "Gagalin", Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  font-size: 72px;
+  font-weight: 400;
+  position: absolute; }
+
+.menu__name {
+  font-family: "Gagalin", Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  color: #fff;
+  display: none; }
+
+.menu__text {
+  font-size: 14px;
+  font-weight: 300;
+  color: #fff;
+  font-family: "Ubuntu", Arial, Helvetica, sans-serif;
+  display: none; }
 
 .forms {
   background: url("../image/forms.jpg") center center/cover no-repeat; }
@@ -914,6 +1018,15 @@ section {
   padding-top: 3.75rem;
   font-size: 3.8125rem;
   font-weight: 400; }
+
+.end {
+  background: url("../image/map.jpg") center center/cover no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end; }
 
 .footer {
   min-height: 60px;

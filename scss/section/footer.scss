@@ -1,3 +1,9 @@
+.end {
+  background: url("../image/map.jpg") center center / cover no-repeat;
+  display: flex;
+  align-items: flex-end;
+}
+
 .footer {
   min-height: 60px;
   background: url("../image/footer.jpg") center center / cover no-repeat;

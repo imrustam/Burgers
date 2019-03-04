@@ -1,0 +1,28 @@
+.menu {
+  background: url("../image/menu.jpg") center center / cover no-repeat;
+  position: relative;
+}
+
+.menu__title {
+  @include gagalin;
+  color: #ffffff;
+  font-size: 72px;
+  font-weight: 400;
+  position: absolute;
+}
+
+.menu__name {
+  @include gagalin;
+  font-size: 40px;
+  font-weight: 400;
+  color: #fff;
+  display: none;
+}
+
+.menu__text {
+  font-size: 14px;
+  font-weight: 300;
+  color: #fff;
+  @include ubuntu;
+  display: none;
+}
